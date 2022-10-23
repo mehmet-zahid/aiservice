@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>JSON Server</title>
+</head>
+<body>
+  
+  <h1>Generate a New Form</h1>
+
+  <form>
+    <label for="FormId">Form Id:</label>
+    <input type="text" name="FormId" required placeholder="Form Id"><br>
+    <label for="FormAsk">Form Ask:</label>
+    <input type="text" name="FormAsk" required placeholder="Form Ask"><br>
+    <label for="UserId">User Id:</label>
+    <input type="text" name="UserId" required placeholder="User Id"><br>
+    <label for="MediaType">Media Type:</label>
+    <input type="text" name="MediaType" required placeholder="Media Type"><br>
+    <label for="MediaUrl">Media Url:</label>
+    <input type="text" name="MediaUrl" required placeholder="Media Url"><br>
+    <button>Generate</button>
+  </form>
+
+  
+  <!--script type="module" src="dist/generate.js"></script-->
+  <script type="module" src="src/generate.js"></script>
+</body>
+</html>
